@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.application.birthdays.BirthdaysApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-31T15:48:05.299Z" hostname="DESKTOP-3A9F6RQ" time="0.958">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.application.birthdays.BirthdaysApplicationTests" time="0.343"/>
+  <system-out><![CDATA[18:48:05.401 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.application.birthdays.BirthdaysApplicationTests]: BirthdaysApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:48:05.458 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.application.birthdays.BirthdaysApplication for test class com.application.birthdays.BirthdaysApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.2)
+
+2026-01-31T18:48:05.693+03:00  INFO 17928 --- [birthdays] [    Test worker] c.a.birthdays.BirthdaysApplicationTests  : Starting BirthdaysApplicationTests using Java 17.0.18 with PID 17928 (started by ugleb in E:\Ptojects\java\birthdays)
+2026-01-31T18:48:05.694+03:00  INFO 17928 --- [birthdays] [    Test worker] c.a.birthdays.BirthdaysApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2026-01-31T18:48:05.909+03:00  INFO 17928 --- [birthdays] [    Test worker] c.a.birthdays.BirthdaysApplicationTests  : Started BirthdaysApplicationTests in 0.377 seconds (process running for 1.117)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
