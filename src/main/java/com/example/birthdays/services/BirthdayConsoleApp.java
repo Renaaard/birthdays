@@ -45,7 +45,7 @@ public class BirthdayConsoleApp implements CommandLineRunner {
         List<Person> todayList = repository.findByMonthAndDay(today.getMonthValue(), today.getDayOfMonth());
         short upcomingBirthdaysEmpty = 0;
 
-        System.out.println("\n--- Сегодня именинники: ---");
+        System.out.println("\n--- Именинники ближайшей недели: ---");
 
         for (int i = 0; i <= 7; i++) {
             LocalDate targetDate = today.plusDays(i);
@@ -115,4 +115,5 @@ public class BirthdayConsoleApp implements CommandLineRunner {
     private void printMenu() {
         System.out.println("\nМеню: \n1. Список всех \n2. Добавить \n3. Ближайшие ДР \n4. Изменить запись \n5. Удалить запись \n0. Выход");
     }
+
 }
